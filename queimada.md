@@ -6,43 +6,43 @@ Saída esperada: - Imprima a matriz após a queimada acontecer.
 Testes
 
     >>>>>>>> 01
-        2 3 1 1
-        #.#
-        .##
+    2 3 1 1
+    #.#
+    .##
     ========
-        #.o
-        .oo
+    #.o
+    .oo
     <<<<<<<<
 
->>>>>>>> 02
-5 5 0 0
-#..#.
-#...#
-###..
-..#.#
-..###
-========
-o..#.
-o...#
-ooo..
-..o.o
-..ooo
-<<<<<<<<
+    >>>>>>>> 02
+    5 5 0 0
+    #..#.
+    #...#
+    ###..
+    ..#.#
+    ..###
+    ========
+    o..#.
+    o...#
+    ooo..
+    ..o.o
+    ..ooo
+    <<<<<<<<
 
->>>>>>>> 03
-5 7 2 3
-#..#.#.
-#..####
-####..#
-..#.#..
-#.###.#
-========
-o..o.o.
-o..oooo
-oooo..o
-..o.o..
-#.ooo.#
-<<<<<<<<
+    >>>>>>>> 03
+    5 7 2 3
+    #..#.#.
+    #..####
+    ####..#
+    ..#.#..
+    #.###.#
+    ========
+    o..o.o.
+    o..oooo
+    oooo..o
+    ..o.o..
+    #.ooo.#
+    <<<<<<<<
 
 Ajuda
 
@@ -50,31 +50,31 @@ Você pode utilizar um vetor de strings para representar uma matriz de caractere
 
 Utilize as seguintes regras para recursão. - Se a posição for fora da matriz, retorne. - Se a posição não for uma arvore retorne. - Queime a arvore. - Chame a recursão para todos os vizinhos.
 
-#include <iostream>
-#include <vector>
-using namespace std;
+    #include <iostream>
+    #include <vector>
+    using namespace std;
 
 
-void show(vector<string> mat){
-    for(int l = 0; l < (int) mat.size(); l++)
-        cout << mat[l] << "\n";
-}
-
-void tocar_fogo(vector<string> &mat, int l, int c){
-    int nl = mat.size();
-    int nc = mat[0].size();
-    //TODO faca seu codigo aqui
-}
-
-int main(){
-    int nl = 0, nc = 0, lfire = 0, cfire = 0;
-    scanf("%d %d %d %d\n", &nl, &nc, &lfire, &cfire);
-    vector<string> mat;
-    for(int l = 0; l < nl; l++){
-        string line;
-        cin >> line;
-        mat.push_back(line);
+    void show(vector<string> mat){
+        for(int l = 0; l < (int) mat.size(); l++)
+            cout << mat[l] << "\n";
     }
-    tocar_fogo(mat, lfire, cfire);
-    show(mat);
-}
+
+    void tocar_fogo(vector<string> &mat, int l, int c){
+        int nl = mat.size();
+        int nc = mat[0].size();
+        //TODO faca seu codigo aqui
+    }
+
+    int main(){
+        int nl = 0, nc = 0, lfire = 0, cfire = 0;
+        scanf("%d %d %d %d\n", &nl, &nc, &lfire, &cfire);
+        vector<string> mat;
+        for(int l = 0; l < nl; l++){
+            string line;
+            cin >> line;
+            mat.push_back(line);
+        }
+        tocar_fogo(mat, lfire, cfire);
+        show(mat);
+    }
