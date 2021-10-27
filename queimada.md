@@ -5,14 +5,14 @@ A matriz está codificada assim. 1a linha: nl, nc, l, c respectivamente - númer
 Saída esperada: - Imprima a matriz após a queimada acontecer.
 Testes
 
->>>>>>>> 01
-2 3 1 1
-#.#
-.##
-========
-#.o
-.oo
-<<<<<<<<
+    >>>>>>>> 01
+        2 3 1 1
+        #.#
+        .##
+    ========
+        #.o
+        .oo
+    <<<<<<<<
 
 >>>>>>>> 02
 5 5 0 0
