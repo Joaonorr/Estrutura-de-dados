@@ -4,8 +4,9 @@
 #include <vector>
 
 
-void soma(int **matriz,int linha,int coluna, int tamanho){
-    if(matriz[linha+1][coluna] > 0 && matriz[linha+1][coluna+1] > 0){
+void soma(int **matriz,int linha,int coluna, int tamanho) {
+    
+    if(matriz[linha+1][coluna] > 0 && matriz[linha+1][coluna+1] > 0) {
         matriz[linha][coluna] = matriz[linha+1][coluna] + matriz[linha+1][coluna+1];
         
     }
@@ -13,7 +14,7 @@ void soma(int **matriz,int linha,int coluna, int tamanho){
         soma(matriz, linha+1, coluna, tamanho) , soma( matriz, linha+1, coluna+1, tamanho);
     }
 
-    if( tamanho!= 0){
+    if( tamanho!= 0) {
         soma(matriz,linha,coluna,tamanho-1);
     }
 }
@@ -37,9 +38,7 @@ int main(){
         matriz[i] = new int[tam];
     }
 
-    int cont{0};
-
-    for(int i{0}; i < tam; i++){
+    for(int i{0}; i < tam; i++) {
         for(int j{0}; j < tam; j++){
             matriz[i][j] = 0;
         }
@@ -64,3 +63,5 @@ int main(){
     }
 
 }
+
+
