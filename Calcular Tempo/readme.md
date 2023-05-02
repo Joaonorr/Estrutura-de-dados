@@ -7,7 +7,7 @@
 - [Código base](#código-base)
 - [Como executar](#como-executar)
 - [Possíveis dificuldades](#possíveis-dificuldades)
-- [Mão na massa](#Chegou-a-hora-de-colocar-a-mão-na-massa!)
+- [Mão na massa](#chegou-a-hora-de-colocar-a-mão-na-massa)
 
 
 ## Introdução
