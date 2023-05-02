@@ -53,12 +53,7 @@ void restaurarVetor(int original[], int modificado[], int n){
 
 int main() {
 
-    printf("Alocando vetores...\n");
-
     int tamanhos[] = {1000, 5000, 10000, 50000, 100000, 200000, 300000, 500000, 800000, 1000000};
-
-    printf("Vetores alocaods!\n");
-    printf("Iniciando testes...\n");
 
     printf("| Tamanho do vetor | Bubble Sort | Selection Sort | Insertion Sort | Merge Sort | Merge Sort V2 | Quick Sort |\n");
     printf("|------------------|-------------|----------------|----------------|------------|---------------|------------|\n");
