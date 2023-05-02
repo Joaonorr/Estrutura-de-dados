@@ -1,5 +1,15 @@
 # Calculando o tempo que cada ordenação leva para ordenar um vetor de _n_ elementos
 
+- [Introdução](#introdução)
+- [Bibliotecas necessárias](#bibliotecas-necessárias)
+- [Funções utilizadas](#funções-utilizadas)
+- [Explicação](#explicação)
+- [Código base](#código-base)
+- [Como executar](#como-executar)
+- [Possíveis dificuldades](#possíveis-dificuldades)
+- [Mão na massa](#Chegou-a-hora-de-colocar-a-mão-na-massa!)
+
+
 ## Introdução
 
 O objetivo desse guia é mostrar como calcular o tempo que cada algoritmo de ordenação leva para ordenar um vetor de _n_ elementos. Para isso, vamos usar 10 vetores de tamanhos diferentes e colocar o tempo de cada ordenação em uma tabela.
@@ -215,7 +225,7 @@ g++ solver.cpp -o solver &&
 
     - Calma, o programa não travou, ele apenas está demorando para executar. O tempo de execução aumenta muito quando o tamanho do vetor aumenta, por isso, é recomendado que você execute o programa com vetores de tamanho pequeno para testar se o programa está funcionando corretamente.
 
-## Chegou a hora de colocar a mão na massa!
+## Chegou a hora de colocar a mão na massa
 
 Agora que você já sabe como executar o código, chegou a hora de colocar a mão na massa, bastar abrir o arquivo `solver.cpp` e implementar as funções de ordenação. no espaço reservado para isso.
 
